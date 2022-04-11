@@ -1,0 +1,102 @@
+
+body {
+	background-color: #000000;
+  font-family: 'Raleway', sans-serif;
+  color:  #FFFFFF;
+  font-size: 18px;
+}
+
+#tituloprincipal{
+  text-align: center;
+}
+
+#fotocentral{
+  width: 100%;
+}
+
+
+#centro{
+	display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.texto2 {
+	margin: auto;
+	 text-align: justify;
+	 font-weight: lighter;
+	 color: #ffffff;
+	 padding: 2em;
+}
+
+.imagen2 {
+	padding: 1em;
+    max-width: 90%;
+}
+
+#iconos {
+    background-color: #1e1a13;
+    color: #ffffff;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+#iconos > h2 {
+    padding-top: 30px;
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+
+#iconos article {
+    color: #ffffff;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+}
+
+#iconos > article > figure {
+    display: inline-block;
+    text-align: center;
+}
+
+#fotos {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.iguana {
+	display: inline-block;
+	width: 28%;
+	margin: 0;
+	padding: 5px;
+justify-content: center;
+}
+
+.iguanafoto{
+	max-width: 100%;
+	max-height: 100%;
+	background-size: cover;
+	justify-content: center;
+}
+
+#footer{
+		text-align: center;
+	    background-color: #1e1a13;
+	    padding: 2em;
+	    color: #ffffff;
+	    font-weight: lighter;
+}
+
+.linkFooter {
+    color: #ffffff;
+    text-decoration: none;
+}
